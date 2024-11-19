@@ -1,8 +1,8 @@
-# Browser Cleanup & Tab Manager Extension  
+# Browser Tools  
 
 ## Description  
 
-**Browser Cleanup & Tab Manager** is a powerful Chromium Extension (Manifest v3) that gives you full control over your browser history, cookies, site data, and tab volume. This tool is designed for users who value privacy and browsing efficiency.  
+**Browser Tools** is a powerful Chromium Extension (Manifest v3) that gives you full control over your browser history, cookies, site data, and tab volume. This tool is designed for users who value privacy and browsing efficiency.  
 
 ### Features  
 1. **Comprehensive History Management**  
@@ -31,7 +31,7 @@
 
 1. Clone or download the project repository.  
    ```bash
-   git clone https://github.com/yourusername/browser-cleanup-tab-manager.git
+   git clone https://github.com/aniketduttaAD/browser-tools.git
 2. Open Google Chrome (or any Chromium-based browser).
 3. Navigate to the Extensions page:
 4. Open a new tab and go to chrome://extensions/.
@@ -79,7 +79,7 @@ Copy code
 
 1. Clone or download the project repository.  
    ```bash
-   git clone https://github.com/yourusername/browser-cleanup-tab-manager.git
+   git clone https://github.com/aniketduttaAD/browser-tools.git
 Open Google Chrome (or any Chromium-based browser).
 
 Navigate to the Extensions page:
