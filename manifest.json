@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Browser Tools Extension",
+    "version": "1.0",
+    "description": "Manage bookmarks, browsing history, and cookies from a single interface.",
+    "permissions": [
+        "browsingData",
+        "cookies",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

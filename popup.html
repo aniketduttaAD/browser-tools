@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Tools</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Browser Tools</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Actions</h2>
+        <div class="action-group">
+          <label>
+            <input type="radio" name="action" value="deleteCookies" /> Delete
+            Cookies
+          </label>
+          <label>
+            <input type="radio" name="action" value="deleteHistory" /> Clear
+            History
+          </label>
+        </div>
+        <div class="controls">
+          <button id="refreshData" disabled>Refresh Data</button>
+          <button id="clearBtn" disabled>Clear Selected</button>
+        </div>
+        <div
+          id="historyConfirmation"
+          class="confirmation-message"
+          style="display: none"
+        >
+          <p>Are you sure you want to clear your browsing history?</p>
+          <div>
+            <button id="confirmHistoryClear">Yes</button>
+            <button id="cancelHistoryClear">No</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="siteListSection" style="display: none">
+        <h2>Sites</h2>
+        <div class="search-bar">
+          <input type="text" id="siteSearch" placeholder="Search sites..." />
+          <label> <input type="checkbox" id="selectAll" /> Select All </label>
+        </div>
+        <div id="siteList" class="list"></div>
+      </section>
+
+      <section>
+        <h2>Site Sounds</h2>
+        <div id="siteSoundsList" class="list"></div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
